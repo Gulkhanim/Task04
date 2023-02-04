@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(49, 49, 49);
+padding:20px;
+}
+header h1{
+    color: white;
+    text-align: center;
+font-family:"Georgia",Times New Roman,Times,serif;
+}
+.main{
+  
+    width: 75%;
+  font-size: 20px;
+  
+ margin: 0 auto !important;
+ padding-top: 50px;
+ height: 100vh;
+}
+#bio-image{
+height:200px;
+width:200px;
+}
+.left{
+    float: left;
+    display: flex;justify-content: space-between;
+
+    
+
+}
+.para{
+    width: 300px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.right{
+    float: right;
+    
+   
+}
+.link{
+    color: red;
+}
